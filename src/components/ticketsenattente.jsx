@@ -11,7 +11,7 @@ export default function Ticketsenattente() {
 
 <div >
 <img className="image-C"
-     src="/img/les-diagrammes/Diagrammesla.png" 
+     src="/img/les-diagrammes/Diagrammesla.png"
      alt="Image de ticket en attente" className="ticket-image"/>
 </div>
 
