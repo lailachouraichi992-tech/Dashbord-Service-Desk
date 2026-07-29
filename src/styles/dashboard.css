@@ -1,0 +1,131 @@
+h1 {
+
+    text-align: center;
+    color: rgb(196, 234, 196);
+    font-size: 30px;
+    padding-top: 5PX;
+    display: inline-flex;
+     padding-top:  5px ;
+    padding-bottom: 5px;
+    text-decoration: underline;
+ 
+
+  
+}
+
+h3 {
+
+    text-align: center;
+
+    color: rgb(196, 234, 196);
+    font-size: 30px;
+    padding-top: 5PX;
+    margin-left: 55px;
+    display: inline-flex;
+  
+}
+
+
+.Title-2{
+
+    text-align: center;
+    color: rgb(27, 114, 27);
+    font-size: 30px;
+    padding-top: 5PX;
+    margin-left: 55px;
+    display: inline-flex;
+  
+}
+.Title{
+
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5PX;
+    flex-direction: row;
+    padding-top: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+    display: inline-flex;
+
+  
+}
+
+#link-D{
+
+    text-decoration: none;
+     font-weight: bold;
+    color: rgb(29, 141, 29);
+
+    font-size: 40px;
+    text-align: left;
+    display:inline-flex;
+text-decoration: underline;
+    padding-top: 190px;
+        padding-right: 5px;
+                padding-left: 5px;
+
+
+
+    
+}
+
+
+p {
+
+    color:black;
+    font-size: 20px;
+    margin-left: 5px;
+    padding-bottom: 20PX;
+    padding-top:  3px ;
+    padding-bottom: 5px;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+
+
+.Border{
+    
+    Text-align: center;
+    width: 650px;
+    height: 1200px;
+    text-align: Left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    Padding-left: 80px;
+    Padding-right: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #59c46b;
+    box-shadow: rgb(36, 29, 29) 5PX  5PX;
+    border:black;
+    float: left;
+    margin-left: 0px;
+    float: inline-start;
+    border-radius: 50px 70px;
+       
+        
+}
+
+
+.Border2{
+
+    width: 450px;
+    height: 280px;
+    text-align: Left;
+    border-radius: 50%;
+    background-color:rgb(126, 239, 126);
+    box-shadow: rgb(36, 29, 29) 5PX  5PX;
+    border:black;
+    float: right;
+    display:inline-flex ;
+    float: inline-end;
+    margin-left: 150px;
+
+        
+}
+
+
