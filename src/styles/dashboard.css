@@ -1,131 +1,88 @@
-h1 {
+import "../styles/dashboard.css";
+import { Link } from "react-router-dom";
 
-    text-align: center;
-    color: rgb(196, 234, 196);
-    font-size: 30px;
-    padding-top: 5PX;
-    display: inline-flex;
-     padding-top:  5px ;
-    padding-bottom: 5px;
-    text-decoration: underline;
+export default function Dashboard() {
+
+
+  return (
+
+
+
+    <>
+
+
+<div className="mid-section">
+ 
+  
+  <Link id="link-D" to="/Dashboard"> Dashboard</Link> <br />
+  <Link id="link-D" to="/tautauxdestickets">Tautaux des Tickets </Link>  <br />
+  <Link id="link-D" to="/ticketsenattente"> diagramme attendue</Link>  <br />
  
 
-  
-}
-
-h3 {
-
-    text-align: center;
-
-    color: rgb(196, 234, 196);
-    font-size: 30px;
-    padding-top: 5PX;
-    margin-left: 55px;
-    display: inline-flex;
-  
-}
-
-
-.Title-2{
-
-    text-align: center;
-    color: rgb(27, 114, 27);
-    font-size: 30px;
-    padding-top: 5PX;
-    margin-left: 55px;
-    display: inline-flex;
-  
-}
-.Title{
-
-    text-align: center;
-    font-size: 30px;
-    padding-top: 5PX;
-    flex-direction: row;
-    padding-top: 55px;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: antiquewhite;
-    text-decoration: none;
-    display: inline-flex;
-
-  
-}
-
-#link-D{
-
-    text-decoration: none;
-     font-weight: bold;
-    color: rgb(29, 141, 29);
-
-    font-size: 40px;
-    text-align: left;
-    display:inline-flex;
-text-decoration: underline;
-    padding-top: 190px;
-        padding-right: 5px;
-                padding-left: 5px;
+</div>
 
 
 
-    
-}
 
+<div id="section">
 
-p {
+      <h1> Dashboard </h1> <br />
 
-    color:black;
-    font-size: 20px;
-    margin-left: 5px;
-    padding-bottom: 20PX;
-    padding-top:  3px ;
-    padding-bottom: 5px;
-    font-size: 20px;
-    text-align: left;
+     <div className="boxes">
 
-}
+  <div className="box">
+    <p>Total Tickets Waiting Supplier</p>
+    <h3>05 Tickets</h3>
+  </div>
 
+  <div className="box">
+    <p>Total Tickets Waiting Business Information</p>
+    <h3>02 Tickets</h3>
+  </div>
 
+  <div className="box">
+    <p>Total Tickets Waiting</p>
+    <h3>09 Tickets</h3>
+  </div>
 
-.Border{
-    
-    Text-align: center;
-    width: 650px;
-    height: 1200px;
-    text-align: Left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    Padding-left: 80px;
-    Padding-right: 80px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: #59c46b;
-    box-shadow: rgb(36, 29, 29) 5PX  5PX;
-    border:black;
-    float: left;
-    margin-left: 0px;
-    float: inline-start;
-    border-radius: 50px 70px;
-       
-        
-}
+  <div className="box">
+    <p>Total Tickets Resolved</p>
+    <h3>21 Tickets</h3>
+  </div>
 
+  <div className="box">
+    <p>Total Tickets Refused</p>
+    <h3>03 Tickets</h3>
+  </div>
 
-.Border2{
+  <div className="box">
+    <p>Total Tickets In Progress</p>
+    <h3>124 Tickets</h3>
+  </div>
 
-    width: 450px;
-    height: 280px;
-    text-align: Left;
-    border-radius: 50%;
-    background-color:rgb(126, 239, 126);
-    box-shadow: rgb(36, 29, 29) 5PX  5PX;
-    border:black;
-    float: right;
-    display:inline-flex ;
-    float: inline-end;
-    margin-left: 150px;
+  <div className="box">
+    <p>Total Tickets Closed</p>
+    <h3>4245 Tickets</h3>
+  </div>
+
+  <div className="box">
+    <p>Total Tickets Canceled</p>
+    <h3>39 Tickets</h3>
+  </div>
+
+   </div>
+  </div>
 
         
-}
 
+<div className="Border2"> 
+
+      <h1 className="Title"> Diagrame Et Statistique : Data Fevrier</h1> 
+      <Link id="link-K" to="/ticketsenattente"> Ticketsenattente </Link> <br /> <br />
+  
+  </div>
+
+    </>
+  );
+}
 
