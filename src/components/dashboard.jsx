@@ -15,8 +15,8 @@ export default function Dashboard() {
  
   
   <Link id="link-D" to="/Dashboard"> Dashboard</Link> <br />
-  <Link id="link-D" to="/Nombres-des-Tickets">nombres des Tickets </Link>  <br />
-  <Link id="link-D" to="/Diagramme-attendue"> diagramme attendue</Link>  <br />
+  <Link id="link-D" to="/tautauxdestickets">Tautaux des Tickets </Link>  <br />
+  <Link id="link-D" to="/ticketsenattente"> diagramme attendue</Link>  <br />
  
 
 </div>
@@ -24,7 +24,7 @@ export default function Dashboard() {
 
 
 
-<div className="section">
+<div id="section">
 
       <h1> Dashboard </h1> <br />
 
@@ -68,11 +68,6 @@ export default function Dashboard() {
   <div className="box">
     <p>Total Tickets Canceled</p>
     <h3>39 Tickets</h3>
-  </div>
-
-  <div className="box">
-    <p>Total Tickets Before Being Taken</p>
-    <h3>28 Tickets</h3>
   </div>
 
    </div>
