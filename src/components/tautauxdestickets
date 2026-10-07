@@ -1,0 +1,46 @@
+import "../styles/tautauxdestickets.css";
+import { Link } from "react-router-dom";
+
+export default function Tautauxdestickets() {
+
+
+  return (
+
+
+
+    <>
+
+
+<div className="mid-section">
+ 
+  
+  <Link id="link-D" to="/Dashboard"> Dashboard</Link> <br />
+  <Link id="link-D" to="/Tautaux-des-Tickets">Tautaux des Tickets </Link>  <br />
+  <Link id="link-D" to="/ticketsenattente"> diagramme attendue</Link>  <br />
+ 
+
+</div>
+
+
+
+
+<div className="section">
+
+      <h1> Tautaux des Tickets </h1> <br />
+
+     <div className="boxes">
+
+  <div className="box">
+    <p>Total Tickets Before Being Taken</p>
+    <h3>28 Tickets</h3>
+  </div>
+
+   </div>
+  </div>
+
+        
+
+    </>
+  );
+}
+
