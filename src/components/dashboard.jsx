@@ -6,36 +6,88 @@ export default function Dashboard() {
 
   return (
 
+
+
     <>
 
 
-
-<div className="Border">
-
-<h1> <b>Dashboard Service Desk</b>  </h1>
-
-
-      <p> Total Tickets Waiting Supplier           <h3><b> 05 Tickets </b> </h3>     </p> <br />
-      <p>Total Tickets  Waiting Business information   <h3><b> 02 Tickets </b></h3>   </p> <br />
-      <p>Total Tickets Waiting              <h3> <b>09 Tickets</b></h3>  </p>
-      <p>Total Tickets Resolved             <h3><b>21 Tickets</b> </h3>  </p>
-      <p>Total Tickets Refused              <h3><b>03 Tickets</b></h3>   </p>
-      <p> Total Tickets In Progress         <h3><b>124 Tickets</b></h3>    </p> <br />
-      <p> Total Tickets Closed              <h3><b>4245 Tickets</b></h3>  </p> <br />
-      <p> Total Tickets Conceled           <h3><b>39 Tickets</b>  </h3>   </p> <br />
-      <p> Total Tickets Befor Beging Taken   <h3><b>28 tickets</b></h3>   </p> <br />
-            <p> Total Tickets              <h3 className="Title-2" ><b>4476</b></h3>  </p> <br />
-
-
+<div className="mid-section">
+ 
+  
+  <Link id="link-D" to="/Dashboard"> Dashboard</Link> <br />
+  <Link id="link-D" to="/Nombres-des-Tickets">nombres des Tickets </Link>  <br />
+  <Link id="link-D" to="/Diagramme-attendue"> diagramme attendue</Link>  <br />
+ 
 
 </div>
+
+
+
+
+<div className="section">
+
+      <h1> Dashboard </h1> <br />
+
+     <div className="boxes">
+
+  <div className="box">
+    <p>Total Tickets Waiting Supplier</p>
+    <h3>05 Tickets</h3>
+  </div>
+
+  <div className="box">
+    <p>Total Tickets Waiting Business Information</p>
+    <h3>02 Tickets</h3>
+  </div>
+
+  <div className="box">
+    <p>Total Tickets Waiting</p>
+    <h3>09 Tickets</h3>
+  </div>
+
+  <div className="box">
+    <p>Total Tickets Resolved</p>
+    <h3>21 Tickets</h3>
+  </div>
+
+  <div className="box">
+    <p>Total Tickets Refused</p>
+    <h3>03 Tickets</h3>
+  </div>
+
+  <div className="box">
+    <p>Total Tickets In Progress</p>
+    <h3>124 Tickets</h3>
+  </div>
+
+  <div className="box">
+    <p>Total Tickets Closed</p>
+    <h3>4245 Tickets</h3>
+  </div>
+
+  <div className="box">
+    <p>Total Tickets Canceled</p>
+    <h3>39 Tickets</h3>
+  </div>
+
+  <div className="box">
+    <p>Total Tickets Before Being Taken</p>
+    <h3>28 Tickets</h3>
+  </div>
+
+   </div>
+  </div>
+
+        
 
 <div className="Border2"> 
 
       <h1 className="Title"> Diagrame Et Statistique : Data Fevrier</h1> 
-      <Link id="link-D" to="/ticketsenattente"> Graphique </Link> <br /> <br />
+      <Link id="link-K" to="/ticketsenattente"> Ticketsenattente </Link> <br /> <br />
   
   </div>
+
     </>
   );
 }
+
