@@ -1,0 +1,22 @@
+
+
+#Chapitre{
+
+    text-align: center;
+    margin-top: 20PX;
+    margin-bottom: 30PX;
+    margin-left: 100PX;
+    background-color: none;
+    box-shadow:  #22b4ac 5PX 5PX 5PX 5PX;
+    border-radius: 10PX;
+    border: 5PX solid #22b4ac;
+    Color: #cddcdc;
+}
+
+
+.image-C{
+    width: 70px;
+    height: 50px;
+    box-shadow: rgb(36, 29, 29) 5PX  5PX;
+    border-radius: 50%;
+}
