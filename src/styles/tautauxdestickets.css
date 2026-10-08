@@ -1,19 +1,16 @@
 
-.section{
+#section{
 
-    width: 700PX;
+    width: 550PX;
     height: 200PX ;
     background-color: WHITE;
-    margin-left: 350PX;
-    margin-right: 60PX;
-    margin-top: 20PX;
+    margin-left: 390PX;
+    margin-top: 90PX;
     margin-bottom: 30PX;
     box-shadow:  #279691 5PX 5PX 5PX 5PX;
-    float: right;
-    float: inline-end;
-    display: inline-flex;
-    float: inline-start;
-    margin-top: none;
+    text-align: right;
+    position: right;
+
 
 
    
@@ -24,16 +21,18 @@
 .mid-section{
   
     width: 200PX;
-    height: 509PX ;
+    height: 600PX ;
     color: bisque;
     box-shadow: grey 5PX  5PX;
     font-size: 25PX;
-    padding-top: 100PX;
-    margin-top: 50PX;
+    padding-top: none;
+    margin-top: none;
     background-color:#78ceca;
     gap: 90PX;
-    float: left;
-    float: inline-start;
+    text-align: left;
+    display: inline-block;
+    position: left;
+
 
 
 
@@ -45,7 +44,17 @@
 #link-D{
    
     color: rgb(11, 103, 120);
+    font-size: 25PX;
     text-align: center;
+    padding-top: 20PX;
+    padding-bottom: 20PX;
+    margin: 20PX;
+    display: flex;
+    flex-direction: column;
+    gap: 20PX;
+    text-decoration: none;
+
+    
   
 
 }
@@ -57,26 +66,58 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 20px;
+  margin-left: none;
+
+  background-color: none;
 }
 
 .box {
-  padding: 20px;
-  border: 1px solid #17c1b8;
-  border-radius: 10px;
-  background-color: white;
-  text-align: center;
+ 
+    width: 100px;
+    height: 90px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    
+
+
 }
 
 
-h1{
+.TITRE{
    
     color: rgb(11, 103, 120);
+    max-width: 100px;
+    text-align: Left;
+    Font-size: 30PX;
+    TEXT-DECORATION: UNDERLINE;
+    GAP: 20PX;
+    margin-left: 60PX;
+    padding-top: 20PX;
+    PADDING-LEFT: 20PX;
+    margin-top: 20PX;
+    margin-bottom: 20PX;
+   
+  
+
+}
+
+
+h2{
+   
+    color: rgb(11, 103, 120);
+    max-width: 100px;
     text-align: Left;
     Font-size: 30PX;
     TEXT-DECORATION: UNDERLINE;
     GAP: 20PX;
     PADDING-LEFT: 60PX;
     padding-top: 20PX;
+    PADDING-LEFT: 20PX;
+    margin-top: 20PX;
+    margin-bottom: 20PX;
+   
   
 
 }
