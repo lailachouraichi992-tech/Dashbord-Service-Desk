@@ -15,25 +15,25 @@ export default function Tautauxdestickets() {
  
   
   <Link id="link-D" to="/Dashboard"> Dashboard</Link> <br />
-  <Link id="link-D" to="/Tautaux-des-Tickets">Tautaux des Tickets </Link>  <br />
-  <Link id="link-D" to="/ticketsenattente"> diagramme attendue</Link>  <br />
+  <Link id="link-D" to="/tautauxdestickets">TautauxdesTickets </Link>  <br />
+  <Link id="link-D" to="/diagramme"> Diagramme </Link>  <br />
  
 
 </div>
+      
 
 
 
 
-<div className="section">
+<div id="section">
 
-      <h1> Tautaux des Tickets </h1> <br />
 
      <div className="boxes">
+          <h1 className="TITRE"> Tautaux des Tickets  </h1> <br />
+           <h2>  4476 Tickets </h2>
 
-  <div className="box">
-    <p>Total Tickets Before Being Taken</p>
-    <h3>28 Tickets</h3>
-  </div>
+
+
 
    </div>
   </div>
